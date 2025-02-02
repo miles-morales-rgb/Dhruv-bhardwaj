@@ -22,7 +22,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .nav-links li {
@@ -269,7 +269,11 @@ button:hover {
     text-align: center;
     padding: 50px;
 }
-
+@media (max-width: 768px){
+    #booking-form {
+        padding: 34px;
+    }
+}
 #orders-list{
     list-style: none;
     padding: 0;
