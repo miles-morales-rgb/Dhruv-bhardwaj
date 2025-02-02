@@ -42,6 +42,9 @@ header {
 }
 /* Responsive Navigation */
 @media (max-width: 768px) {
+    .nav-links {
+        gap: 10px;
+    }
     .nav-links a{
         text-align: center;
         padding: 10px;
