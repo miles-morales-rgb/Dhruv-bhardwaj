@@ -22,7 +22,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 .nav-links li {
@@ -46,6 +46,9 @@ header {
         text-align: center;
         padding: 10px;
         font-size: 1rem;
+    }
+    .nav-links {
+        gap: 10px;
     }
     h2{
         font-size: 18px;
