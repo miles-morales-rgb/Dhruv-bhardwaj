@@ -50,9 +50,6 @@ header {
     h2{
         font-size: 18px;
     }
-    .logo img {
-        height: 20px;
-    }
 }
 
 /* Our Services Section */
@@ -237,7 +234,7 @@ footer {
 }
 #booking-form {
     background: white;
-    padding: 20px;
+    padding: 35px;
     border-radius: 10px;
     width: 50%;
     margin : auto;
@@ -269,11 +266,7 @@ button:hover {
     text-align: center;
     padding: 50px;
 }
-@media (max-width: 768px){
-    #booking-form {
-        padding: 34px;
-    }
-}
+
 #orders-list{
     list-style: none;
     padding: 0;
