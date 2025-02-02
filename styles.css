@@ -22,7 +22,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 10px;
 }
 
 .nav-links li {
@@ -54,11 +54,7 @@ header {
         height: 20px;
     }
 }
-@media (max-width: 768px) {
-    nav-links {
-        gap: 10px;
-    }
-}
+
 /* Our Services Section */
 #our-services {
     text-align: center;
