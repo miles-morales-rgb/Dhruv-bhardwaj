@@ -16,13 +16,13 @@ header {
 }
 
 .logo img {
-  height: 20px;
+  height: 50px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 20px;
 }
 
 .nav-links li {
