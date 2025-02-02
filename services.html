@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="shopify-brands-solid.svg" alt="Logo">
+          </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="oders.html"> Oders</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="services">
+        <h2>Choose Your Event</h2>
+        <div class="service-card" onclick="selectService('Wedding', 5000)">
+            <img src="wedding.avif">
+            <h3>Wedding</h3>
+            <p>$5000</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+        <div class="service-card" onclick="selectService('Corporate', 7000)">
+            <img src="school.jpg">
+            <h3>Corporate Event</h3>
+            <p>$7000</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+        <div class="service-card" onclick="selectService('Corporate', 7000)">
+            <img src="collage.jpg">
+            <h3>Corporate Event</h3>
+            <p>$7000</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+        <div class="service-card" onclick="selectService('Corporate', 7000)">
+            <img src="corporate.jpeg">
+            <h3>Corporate Event</h3>
+            <p>$7000</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+    </section>
+    <section id="book-now">
+        <form id="booking-form">
+            <label for="event-name">Selected Event:</label>
+            <input type="text" id="event-name" name="event-name" readonly>
+            <label for="event-price">Total Price:</label>
+            <input type="text" id="event-price" name="event-price" readonly>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </section>
+<script src="script.js"></script>
+<footer>
+    <div class="footer-section">
+      <h4 onclick="window.location.href='services.html'">About Us</h4>
+      <ul>
+        <li>Our Story</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact Us</h4>
+      <ul class="social-icons">
+        <a href="#"><img src="facebook-brands-solid.svg"></a>
+        <a href="#"><img src="square-instagram-brands-solid.svg"></a>
+        <a href="#"><img src="square-x-twitter-brands-solid.svg"></a>
+      </ul>
+    </div>
+</footer>
+</body>
+</html>
