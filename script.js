@@ -3,6 +3,15 @@ function selectService(name, price) {
     document.getElementById('event-name').value = name;
     document.getElementById('event-price').value = "$" + price;
 }
+// Function to auto-fill the booking form and scroll to it
+function selectService(name, price) {
+    document.getElementById('event-name').value = name;
+    document.getElementById('event-price').value = "$" + price;
+
+    // Smooth scroll to the booking form
+    document.getElementById('book-now').scrollIntoView({ behavior: 'smooth' });
+}
+
 // Form submission handling
 document.getElementById('booking-form').addEventListener('submit', function (e) {
     e.preventDefault();
