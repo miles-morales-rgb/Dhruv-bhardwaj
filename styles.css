@@ -42,9 +42,6 @@ header {
 }
 /* Responsive Navigation */
 @media (max-width: 768px) {
-    .nav-links {
-        gap: 10px;
-    }
     .nav-links a{
         text-align: center;
         padding: 10px;
@@ -55,6 +52,11 @@ header {
     }
     .logo img {
         height: 20px;
+    }
+}
+@media (max-width: 768px) {
+    nav-links {
+        gap: 10px;
     }
 }
 /* Our Services Section */
