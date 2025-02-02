@@ -10,70 +10,65 @@
     <header>
         <div class="logo">
             <img src="shopify-brands-solid.svg" alt="Logo">
-          </div>
+        </div>
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="order.html"> Orders</a></li>
+                <li><a href="orders.html">Orders</a></li>
             </ul>
         </nav>
     </header>
+
     <section id="services">
         <h2>Choose Your Event</h2>
+
         <div class="service-card">
             <img src="wedding.avif">
             <h3>Wedding</h3>
             <p>$5000</p>
             <button class="book-btn" onclick="selectService('Wedding', 5000)">Book Now</button>
         </div>
-        <div class="service-card" onclick="selectService('Corporate', 7000)">
-            <img src="school.jpg">
-            <h3>Corporate Event</h3>
-            <p>$7000</p>
-            <button class="book-btn" id="book-now">Book Now</button>
-        </div>
-        <div class="service-card" onclick="selectService('Corporate', 7000)">
-            <img src="collage.jpg">
-            <h3>Corporate Event</h3>
-            <p>$7000</p>
-            <button class="book-btn" id="book-now">Book Now</button>
-        </div>
-        <div class="service-card" onclick="selectService('Corporate', 7000)">
+
+        <div class="service-card">
             <img src="corporate.jpeg">
             <h3>Corporate Event</h3>
             <p>$7000</p>
-            <button class="book-btn" id="book-now">Book Now</button>
+            <button class="book-btn" onclick="selectService('Corporate Event', 7000)">Book Now</button>
+        </div>
+
+        <div class="service-card">
+            <img src="school.jpg">
+            <h3>School Function</h3>
+            <p>$3000</p>
+            <button class="book-btn" onclick="selectService('School Function', 3000)">Book Now</button>
+        </div>
+
+        <div class="service-card">
+            <img src="college.jpg">
+            <h3>College Fest</h3>
+            <p>$4000</p>
+            <button class="book-btn" onclick="selectService('College Fest', 4000)">Book Now</button>
         </div>
     </section>
+
+    <!-- Booking Form -->
     <section id="book-now">
+        <h2>Book Your Event</h2>
         <form id="booking-form">
             <label for="event-name">Selected Event:</label>
             <input type="text" id="event-name" name="event-name" readonly>
+
             <label for="event-price">Total Price:</label>
             <input type="text" id="event-price" name="event-price" readonly>
+
             <label for="email">Your Email:</label>
             <input type="email" id="email" name="email" required>
+
             <button type="submit">Confirm Booking</button>
         </form>
     </section>
-<script src="script.js"></script>
-<footer>
-    <div class="footer-section">
-      <h4 onclick="window.location.href='services.html'">About Us</h4>
-      <ul>
-        <li>Our Story</li>
-        <li>Careers</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Contact Us</h4>
-      <ul class="social-icons">
-        <a href="#"><img src="facebook-brands-solid.svg"></a>
-        <a href="#"><img src="square-instagram-brands-solid.svg"></a>
-        <a href="#"><img src="square-x-twitter-brands-solid.svg"></a>
-      </ul>
-    </div>
-</footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
