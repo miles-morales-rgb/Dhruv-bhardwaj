@@ -22,7 +22,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .nav-links li {
@@ -49,6 +49,9 @@ header {
     }
     h2{
         font-size: 18px;
+    }
+    .logo img {
+        height: 20px;
     }
 }
 /* Our Services Section */
